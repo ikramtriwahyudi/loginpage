@@ -1,5 +1,4 @@
 import 'package:belajar/Newpassword.dart';
-import 'package:belajar/Passwordchange.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:otp_text_field/otp_text_field.dart';
@@ -34,7 +33,7 @@ class Otpverification extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
+           const SizedBox(
               height: 20,
             ),
             Text(

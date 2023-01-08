@@ -1,4 +1,5 @@
 import 'package:belajar/Forgotpassword.dart';
+import 'package:belajar/Register.dart';
 import 'package:belajar/Welcome.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -165,7 +166,13 @@ class _LoginpageState extends State<Loginpage> {
                     ),
                   ),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => Registerpage(),
+                          ));
+                    },
                     child: const Text("Register Now"),
                   )
                 ],
